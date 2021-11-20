@@ -1816,9 +1816,9 @@ section {
 .a320-animate-state {
   background: linear-gradient(
     to left,
-    #6284ff 80%,
-    #3662ff,
-    #6284ff
+    #f9ba00 80%,
+    #f9ba00 50%,
+    #f9ba00 20%
   ) !important;
   background-position: 0 0;
   animation: sas 4s infinite linear;
@@ -1827,12 +1827,12 @@ section {
   width: 100%;
 }
 .a320-switcherOn {
-  background-color: #3662ff !important;
+  background-color: #f9ba00 !important;
 }
 #asu,
 #gpu {
-  stroke: #c4c4c4;
-  fill: #c4c4c4;
+  stroke: #ffffff;
+  fill: #ffffff;
 }
 .a320-server-field-set {
   border-radius: 4px;
@@ -5583,7 +5583,7 @@ h2.ui.header {
   border-radius: 4px;
 }
 .ui.button {
-  border: 1px solid #6e6e6e;
+  border: 1px solid ffffff;
 }
 .ui.container {
   display: block;
