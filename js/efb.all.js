@@ -34456,7 +34456,7 @@ cabin.waitReady(function () {
     var labelOff = buttonLabels.off;
     var colorOn = "#F9BA00";
     var colorOff = "#c4c4c4";
-    var colorAnimate = "#6284ff";
+    var colorAnimate = "#F9BA00";
     var switcherState = 0;
     var responseValue = 0;
     var isDisable = false;
