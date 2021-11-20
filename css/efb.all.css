@@ -17112,7 +17112,7 @@ ol.ui.horizontal.list li:before {
   box-shadow: none !important;
   border: 0;
   background: 0 0;
-  border-bottom: 0 solid #d4d4d5;
+  border-bottom: 0 solid #ffffff;
 }
 .ui.tabular.fluid.menu {
   width: calc(100% + 2px) !important;
@@ -17121,15 +17121,15 @@ ol.ui.horizontal.list li:before {
   background: 0 0;
   border-bottom: none;
   padding: 0.2em 1.42857143em;
-  color: #c4c4c4;
+  color: #ffffff;
 }
 .ui.tabular.menu .item:hover {
   background-color: transparent;
-  color: #c4c4c4;
+  color: #f9ba00;
 }
 .ui.tabular.menu .active.item {
-  background: #555;
-  color: #fff;
+  background: #f9ba00;
+  color: #00235f;
   font-weight: 400;
   margin-bottom: 0;
   -webkit-box-shadow: none;
@@ -17280,8 +17280,8 @@ ol.ui.horizontal.list li:before {
 .ui.secondary.menu .active.item:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #3662ff;
-  color: #fff;
+  background: #f9ba00;
+  color: #00235f;
 }
 .ui.secondary.inverted.menu .link.item,
 .ui.secondary.inverted.menu a.item {
@@ -18140,13 +18140,13 @@ ol.ui.horizontal.list li:before {
   box-shadow: inset 0 0 11px 0 rgba(196, 196, 196, 0.4);
 }
 .ui.tabular.menu .item {
-  background: #323232;
-  border-top: 1px solid #6e6e6e;
-  border-left: 1px solid #6e6e6e;
+  background: #00235f;
+  border-top: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
   border-right: none;
 }
 .ui.tabular.menu .item:last-child {
-  border-right: 1px solid #6e6e6e;
+  border-right: 1px solid #00235f;
   padding-right: 30px;
 }
 .ui.tabular.menu .item:last-child::after {
@@ -18154,12 +18154,12 @@ ol.ui.horizontal.list li:before {
   position: absolute;
   top: -0.7em;
   right: -0.3em;
-  border-left: 1px solid #6e6e6e;
+  border-left: 1px solid #ffffff;
   height: 30px;
   width: 15px;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  background: #363636;
+  background: #00235f;
 }
 .ui.tabular.menu .item::after:hover {
   background: 0 0;
@@ -19285,7 +19285,7 @@ ol.ui.horizontal.list li:before {
 }
 .ui.celled.table tr td,
 .ui.celled.table tr th {
-  border-left: 1px solid #c4c4c4;
+  border-left: 1px solid ffffff;
 }
 .ui.celled.table tr td:first-child,
 .ui.celled.table tr th:first-child {
