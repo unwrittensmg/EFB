@@ -37921,17 +37921,13 @@ cabin.waitReady(function () {
     let val = $("#wxSource").dropdown("get value");
     switch (val) {
       case "0":
-        pending = "https://www.ventusky.com/?p={lat};{lon};6&l=rain-3h&w=off";
+        pending = "https://cpdlc.rapshansa.de/";
         break;
       case "1":
-        pending =
-          "https://embed.windy.com/embed2.html?lat={lat}&lon={lon}&zoom=8&" +
-          "level=surface&overlay=radar&type=map&location=coordinates&radarRange=-1";
+        pending = "https://intranet.rapshansa.de/index.php/login";
         break;
       case "2":
-        pending =
-          "https://www.rainviewer.com/map.html?loc={lat},{lon},6&oFa=0&oC=0&" +
-          "oU=1&oCS=1&oF=0&oAP=0&rmt=2&c=6&o=83&lm=0&th=1&sm=1&sn=1";
+        pending = "https://rapshansa.de/";
         break;
     }
   }
