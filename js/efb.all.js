@@ -37921,7 +37921,7 @@ cabin.waitReady(function () {
     let val = $("#wxSource").dropdown("get value");
     switch (val) {
       case "0":
-        pending = "https://cpdlc.rapshansa.de/";
+        pending = "https://efb.rapshansa.de/";
         break;
       case "1":
         pending = "https://intranet.rapshansa.de/index.php/login";
