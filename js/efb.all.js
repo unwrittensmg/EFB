@@ -35667,7 +35667,7 @@ cabin.waitReady(function () {
     let value = parseInt(efbData.cargoMaxTotal * pct);
     $("#fCargoAll").val(value).trigger("change");
   });
-  var bgColor = "#363636";
+  var bgColor = "#F9BA00";
   var bgPolyColor = "rgb(100, 100, 100)";
   var axisColor = "rgb(146, 146, 146)";
   var strokePolyColor = "rgb(166, 166, 166)";
@@ -37752,7 +37752,7 @@ cabin.waitReady(function () {
   function changeSource() {
     let val = $(this).dropdown("get value");
     let map = {
-      0: "https://eisenfaust12.github.io/EFB/pdf.js/viewer.html",
+      0: "https://github.com/unwrittensmg/EFB/blob/master/pdf.js/viewer.html",
       1: "https://charts.navigraph.com/",
       2: "https://navdatapro.aerosoft.com/",
     };
